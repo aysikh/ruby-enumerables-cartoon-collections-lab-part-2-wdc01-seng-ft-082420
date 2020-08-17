@@ -41,7 +41,7 @@ def find_valid_calls(planeteer_calls)
     if mixed_calls == valid_calls
       new_array << mixed_calls
     else
-      new_array = false
+      new_array = nil
     end
   end
   new_array
