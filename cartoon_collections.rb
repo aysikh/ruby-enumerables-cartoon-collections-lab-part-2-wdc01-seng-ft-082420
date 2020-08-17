@@ -25,6 +25,8 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.each do |calls|
     if calls.length > 4
       new_array = true
+    else
+      new_array = false
     end
   end
     new_array
