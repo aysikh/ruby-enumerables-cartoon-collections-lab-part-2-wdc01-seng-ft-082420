@@ -39,5 +39,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.each do |mixed_calls|
     if mixed_calls == valid_calls
       print mixed_calls
+    else
+      nil
     end
 end
